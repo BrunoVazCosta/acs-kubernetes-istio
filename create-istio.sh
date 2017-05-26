@@ -22,4 +22,4 @@ kubectl apply -f install/kubernetes/addons/zipkin.yaml
 
 # Verifying the installation
 kubectl get svc
-kubectl get svc
+kubectl get pods
