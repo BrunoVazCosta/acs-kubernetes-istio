@@ -1,6 +1,9 @@
 # Download and install last release of istio
 curl -L https://git.io/getIstio | sh -
 
+# Change dir to istio install dir
+cd isio-*
+
 # Add istioctl to PATH
 export PATH=$PWD/bin:$PATH
 
